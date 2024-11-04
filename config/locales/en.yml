@@ -1,0 +1,3 @@
+en:
+  error_spent_on_old_date: "Cannot log time on a date older than %{days} days"
+  setting_timelog_lock_days_older_than: "Lock (add/edit/delete time logs) dates older than"

@@ -1,0 +1,4 @@
+<div class="splitcontentleft">
+<p><%= label 'setting_timelog_lock_days_older_than', l(:setting_timelog_lock_days_older_than) %>
+  <%= text_field_tag 'settings[timelog_lock_days_older_than]', Setting.plugin_timelog_lock['timelog_lock_days_older_than'], size: 6 %> <%= l(:label_day_plural) %></p>
+</div>
